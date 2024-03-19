@@ -1,0 +1,20 @@
+@font-face {
+    font-family: graffiti_xenoa;
+    src: url('graffiti_xenoa/GraffitiXenoa-Regular.otf') format('opentype'); /* Remplacez le chemin par le chemin réel où vous avez téléversé le fichier de police */
+    /* Ajoutez ici les autres formats de police si vous avez également téléversé des fichiers .woff ou .woff2 */
+}
+body {
+    font-family: graffiti_xenoa, sans-serif; /* Utilisation de la police définie */
+}
+
+.spacing{
+    letter-spacing: 3px;
+}
+
+
+.linear-simple{
+    background: linear-gradient(#f9e0ec,#F5F5DC);
+}
+.vertmat{
+    color: #008000;
+}
