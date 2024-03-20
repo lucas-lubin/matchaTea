@@ -39,4 +39,6 @@ button {
 
 .pp_rond{
     border-radius: 45px;
+    height: 45%;
+    width: 50%;
 }
