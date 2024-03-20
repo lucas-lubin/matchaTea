@@ -3,18 +3,77 @@
     src: url('graffiti_xenoa/GraffitiXenoa-Regular.otf') format('opentype'); /* Remplacez le chemin par le chemin réel où vous avez téléversé le fichier de police */
     /* Ajoutez ici les autres formats de police si vous avez également téléversé des fichiers .woff ou .woff2 */
 }
+
 body {
     font-family: graffiti_xenoa, sans-serif; /* Utilisation de la police définie */
 }
 
-.spacing{
+.spacing {
     letter-spacing: 3px;
 }
 
-
-.linear-simple{
+.linear-simple {
     background: linear-gradient(#f9e0ec,#F5F5DC);
 }
-.vertmat{
+
+.vertmat {
     color: #008000;
 }
+
+/* Centrer les liens */
+body {
+    text-align: center;
+}
+
+/* Ajouter un espacement entre les liens */
+a {
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+/* Styles pour le footer */
+footer {
+    color: greenyellow; /* Changer la couleur du texte en bleu, par exemple */
+}
+
+
+#the-matcha-img {
+    width: 800px; /* Définir la largeur de l'image sur 800 pixels */
+    border-radius: 40px;
+}
+
+/* CSS pour changer la police du slogan avec un id */
+#slogan {
+    font-family: "Arial", sans-serif; /* Changer la police du slogan */
+}
+
+/* Styles pour positionner le header à gauche */
+header {
+    position: fixed; /* Position fixe pour maintenir le header en place */
+    top: 0; /* Aligner le header en haut de la page */
+    left: 0; /* Aligner le header sur la gauche de la page */
+    width: 200px; /* Définir une largeur pour le header (ajustez selon vos besoins) */
+    height: 100vh; /* Définir la hauteur du header pour remplir la hauteur de la fenêtre */
+    background-color: burlywood; /* Couleur de fond du header */
+    padding: 20px; /* Ajouter un espace intérieur pour le contenu */
+    direction: rtl; /* Changer la direction de l'écriture de droite à gauche */
+    text-align: right; /* Aligner le texte à droite */
+}
+
+/* Styles pour les liens du header */
+header a {
+    display: block; /* Afficher les liens en tant que bloc pour les aligner verticalement */
+    margin-bottom: 10px; /* Ajouter un espacement entre les liens */
+    color: #008000; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprimer la décoration des liens */
+}
+
+/* Styles pour le titre du header */
+header h1 {
+    margin-bottom: 20px; /* Ajouter un espacement sous le titre */
+}
+
+/* Styles pour le reste de la page */
+/* Vous pouvez ajouter d'autres styles pour le reste de votre contenu ici */
