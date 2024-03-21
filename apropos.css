@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+
+}
+body {
+
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+main section .ali{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    
+}
+
+main section .ali-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+.art1{
+    width: 400px;
+}
+
+
