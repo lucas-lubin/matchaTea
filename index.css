@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: graffiti_xenoa;
     src: url('graffiti_xenoa/GraffitiXenoa-Regular.otf') format('opentype'); /* Remplacez le chemin par le chemin réel où vous avez téléversé le fichier de police */
@@ -6,6 +7,7 @@
 
 body {
     font-family: graffiti_xenoa, sans-serif; /* Utilisation de la police définie */
+    
 }
 
 .spacing {
@@ -13,11 +15,11 @@ body {
 }
 
 .linear-simple {
-    background: linear-gradient(#f9e0ec,#F5F5DC);
+    background: linear-gradient(white);
 }
 
 .vertmat {
-    color: #008000;
+    color: greenyellow;
 }
 
 /* Centrer les liens */
@@ -39,7 +41,7 @@ footer {
 }
 
 
-#the-matcha-img {
+.image1 {
     width: 800px; /* Définir la largeur de l'image sur 800 pixels */
     border-radius: 40px;
 }
@@ -49,31 +51,55 @@ footer {
     font-family: "Arial", sans-serif; /* Changer la police du slogan */
 }
 
-/* Styles pour positionner le header à gauche */
-header {
-    position: fixed; /* Position fixe pour maintenir le header en place */
-    top: 0; /* Aligner le header en haut de la page */
-    left: 0; /* Aligner le header sur la gauche de la page */
-    width: 200px; /* Définir une largeur pour le header (ajustez selon vos besoins) */
-    height: 100vh; /* Définir la hauteur du header pour remplir la hauteur de la fenêtre */
-    background-color: burlywood; /* Couleur de fond du header */
-    padding: 20px; /* Ajouter un espace intérieur pour le contenu */
+/* Styles CSS pour la barre latérale */
+body {
     direction: rtl; /* Changer la direction de l'écriture de droite à gauche */
-    text-align: right; /* Aligner le texte à droite */
 }
 
-/* Styles pour les liens du header */
-header a {
-    display: block; /* Afficher les liens en tant que bloc pour les aligner verticalement */
-    margin-bottom: 10px; /* Ajouter un espacement entre les liens */
-    color: #008000; /* Couleur du texte des liens */
-    text-decoration: none; /* Supprimer la décoration des liens */
+
+/* Styles CSS pour la barre latérale */
+.sidebar {
+    height: 100%;
+    width: 200px; /* Largeur de la sidebar */
+    position: fixed; /* Position fixée */
+    top: 0; /* Aligné en haut */
+    left: 0; /* Aligné à gauche */
+    background-color: rgb(240, 238, 157); /* Couleur de fond */
+    display: flex; /* Utiliser la flexbox */
+    flex-direction: column; /* Afficher les éléments en colonne */
+    justify-content: flex-start; /* Aligner les éléments en haut */
+    padding-top: 20px; /* Espace en haut */
 }
 
-/* Styles pour le titre du header */
-header h1 {
-    margin-bottom: 20px; /* Ajouter un espacement sous le titre */
+.sidebar a {
+    padding: 40px; /* Espace entre les liens */
+    text-align: left; /* Aligner le texte à gauche */
+    text-decoration: none; /* Pas de soulignement sur les liens */
+    transform: rotate(-90deg); /* Incliner le texte de -30 degrés */
 }
 
-/* Styles pour le reste de la page */
-/* Vous pouvez ajouter d'autres styles pour le reste de votre contenu ici */
+.sidebar a:hover {
+    
+    color: yellow; /* Changer la couleur du texte au survol */
+}
+
+/* Styles CSS pour le contenu principal */
+.content {
+    margin-left: 220px; /* Marge à gauche pour laisser de la place à la sidebar */
+}
+
+/* Autres styles CSS pour le reste de la page */
+
+.Accueil2 {
+    text-align: center; /* Centrer le texte à gauche */
+    list-style: none; /* Supprimer les styles de listes par défaut */
+    margin-left: -700px; /* Décaler légèrement la liste vers la gauche */
+    
+}
+.local {text-align: right;
+list-style: none;
+margin-top: -150px;
+color: black;}
+
+#conditions{font-family: 'Courier New', Courier, monospace;
+color: yellowgreen;}
