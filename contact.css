@@ -1,0 +1,130 @@
+@font-face {
+    font-family: graffiti_xenoa;
+    src: url('graffiti_xenoa/GraffitiXenoa-Regular.otf') format('opentype'); /* Remplacez le chemin par le chemin réel où vous avez téléversé le fichier de police */
+    /* Ajoutez ici les autres formats de police si vous avez également téléversé des fichiers .woff ou .woff2 */
+}
+
+body {
+    text-align: center;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 10px; /* Ajoute un espace entre les éléments */
+}
+
+label, input, textarea {
+ width: 100%; /* Assure que les éléments prennent toute la largeur disponible */
+}
+
+input[type="text"], textarea {
+    width: 50%; /* Assure que les éléments prennent toute la largeur disponible */
+    height: 40px; /* Définit la hauteur des champs de saisie */
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur des champs de saisie pour une meilleure lisibilité */
+}
+
+textarea {
+    width: 60%; /* Assure que les éléments prennent toute la largeur disponible */
+    height: 100px; /* Définit la hauteur des espaces de texte */
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur des espaces de texte pour une meilleure lisibilité */
+    resize: vertical; /* Permet de redimensionner uniquement la hauteur de la zone de texte */
+}
+
+input[type="submit"] {
+ width: auto; /* Permet au bouton d'envoyer de s'adapter à son contenu */
+}
+
+body {
+    font-family: graffiti_xenoa, sans-serif; /* Utilisation de la police définie */
+}
+
+.spacing {
+    letter-spacing: 3px;
+}
+
+.linear-simple {
+    background: linear-gradient(white);
+}
+
+.vertmat {
+    color: greenyellow;
+}
+
+/* Centrer les liens */
+body {
+    text-align: center;
+}
+
+/* Ajouter un espacement entre les liens */
+a {
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+/* Styles pour le footer */
+footer {
+    color: greenyellow; /* Changer la couleur du texte en bleu, par exemple */
+}
+
+/* CSS pour changer la police du slogan avec un id */
+#slogan {
+    font-family: "Arial", sans-serif; /* Changer la police du slogan */
+}
+
+/* Styles CSS pour la barre latérale */
+body {
+    direction: ltr; /* Changer la direction de l'écriture de gauche à droite */
+}
+
+/* Styles CSS pour la barre latérale */
+.sidebar {
+    height: 100%;
+    width: 200px; /* Largeur de la sidebar */
+    position: fixed; /* Position fixée */
+    top: 0; /* Aligné en haut */
+    left: 0; /* Aligné à gauche */
+    background-color: rgb(240, 238, 157); /* Couleur de fond */
+    display: flex; /* Utiliser la flexbox */
+    flex-direction: column; /* Afficher les éléments en colonne */
+    justify-content: flex-start; /* Aligner les éléments en haut */
+    padding-top: 20px; /* Espace en haut */
+}
+
+.sidebar a {
+    padding: 40px; /* Espace entre les liens */
+    text-align: left; /* Aligner le texte à gauche */
+    text-decoration: none; /* Pas de soulignement sur les liens */
+    transform: rotate(90deg); /* Incliner le texte de 30 degrés */
+}
+
+.sidebar a:hover {
+    color: yellow; /* Changer la couleur du texte au survol */
+}
+
+/* Styles CSS pour le contenu principal */
+.content {
+    margin-left: 220px; /* Marge à gauche pour laisser de la place à la sidebar */
+}
+
+/* Autres styles CSS pour le reste de la page */
+.Accueil2 {
+    text-align: center; /* Centrer le texte à gauche */
+    list-style: none; /* Supprimer les styles de listes par défaut */
+    margin-left: -700px; /* Décaler légèrement la liste vers la gauche */
+}
+
+.local {
+    text-align: right;
+    list-style: none;
+    margin-top: -150px;
+    color: black;
+}
+
+#conditions {
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+}
