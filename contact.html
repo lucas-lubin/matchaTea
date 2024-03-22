@@ -24,7 +24,16 @@
   </div>
   
   </header>
-  <form action="#" method="post">
+  <style>
+    input[type="text"], textarea {
+      border-radius: 40px;
+    }
+
+    input[type="submit"] {
+      border-radius: 40px; /* Ajoute un border-radius de 40px */
+    }
+  </style>
+<form action="#" method="post">
     <label for="name">Nom :</label>
     <input type="text" id="name" name="name" placeholder="Votre nom.." required>
 

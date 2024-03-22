@@ -20,6 +20,7 @@ label, input, textarea {
 }
 
 input[type="text"], textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Remplacez Arial par la police de votre choix */
     width: 50%; /* Assure que les éléments prennent toute la largeur disponible */
     height: 40px; /* Définit la hauteur des champs de saisie */
     padding: 5px; /* Ajoute un peu d'espace à l'intérieur des champs de saisie pour une meilleure lisibilité */
@@ -30,6 +31,7 @@ textarea {
     height: 100px; /* Définit la hauteur des espaces de texte */
     padding: 5px; /* Ajoute un peu d'espace à l'intérieur des espaces de texte pour une meilleure lisibilité */
     resize: vertical; /* Permet de redimensionner uniquement la hauteur de la zone de texte */
+    text-align: center; /* Centre le texte dans la zone de texte */
 }
 
 input[type="submit"] {
@@ -127,4 +129,24 @@ body {
 #conditions {
     font-family: 'Courier New', Courier, monospace;
     color: yellowgreen;
+}
+
+label {
+    font-family: Arial, sans-serif; /* Remplacez Arial par la police de votre choix */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Exemple de media query pour les écrans de moins de 600px de large */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Réduit la taille de la police pour les petits écrans */
+    }
+    .sidebar {
+        display: none; /* Cache la barre latérale sur les petits écrans */
+    }
+    /* Ajustements supplémentaires pour les éléments spécifiques */
 }
