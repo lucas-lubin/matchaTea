@@ -7,7 +7,13 @@
 
 body {
     font-family: graffiti_xenoa, sans-serif; /* Utilisation de la police définie */
+    text-align: center;
     
+}
+
+header {
+    background-color: burlywood; /* Ajoutez cette ligne pour définir la couleur de fond de l'en-tête */
+    color: bisque;
 }
 
 .spacing {
@@ -22,9 +28,10 @@ body {
     color: greenyellow;
 }
 
-/* Centrer les liens */
-body {
-    text-align: center;
+.logo{
+    height: 2%;
+    width: 2%;
+    border-radius: 50px;
 }
 
 /* Ajouter un espacement entre les liens */
@@ -35,10 +42,6 @@ a {
     color: greenyellow;
 }
 
-/* Styles pour le footer */
-footer {
-    color: greenyellow; /* Changer la couleur du texte en bleu, par exemple */
-}
 
 
 .image1 {
@@ -46,30 +49,33 @@ footer {
     border-radius: 40px;
 }
 
-/* CSS pour changer la police du slogan avec un id */
+
 #slogan {
     font-family: "Arial", sans-serif; /* Changer la police du slogan */
 }
 
-/* Styles CSS pour la barre latérale */
-body {
-    direction: rtl; /* Changer la direction de l'écriture de droite à gauche */
+
+.princip{
+    height: 80%;
+    width:60% ;
+    border-radius: 90px;
 }
 
-
-/* Styles CSS pour la barre latérale */
 .sidebar {
     height: 100%;
-    width: 200px; /* Largeur de la sidebar */
+    width: 190px; /* Largeur de la sidebar */
     position: fixed; /* Position fixée */
     top: 0; /* Aligné en haut */
     left: 0; /* Aligné à gauche */
-    background-color: rgb(240, 238, 157); /* Couleur de fond */
+    background-color: burlywood; /* Couleur de fond */
     display: flex; /* Utiliser la flexbox */
     flex-direction: column; /* Afficher les éléments en colonne */
     justify-content: flex-start; /* Aligner les éléments en haut */
-    padding-top: 20px; /* Espace en haut */
+    padding-top: 70px; /* Espace en haut */
 }
+
+
+
 
 .sidebar a {
     padding: 40px; /* Espace entre les liens */
@@ -96,10 +102,15 @@ body {
     margin-left: -700px; /* Décaler légèrement la liste vers la gauche */
     
 }
-.local {text-align: right;
-list-style: none;
-margin-top: -150px;
-color: black;}
 
-#conditions{font-family: 'Courier New', Courier, monospace;
-color: yellowgreen;}
+.local {
+    text-align: right;
+    list-style: none;
+    margin-top: -150px;
+    color: black;
+}
+
+#conditions{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;}
+
