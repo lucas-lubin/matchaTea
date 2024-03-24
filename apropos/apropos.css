@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+
+}
+body {
+    background:linear-gradient(90deg,#ffff)
+    
+    
+    }
+
+body{
+        text-align: center;
+        padding-left: 190px; /* Ajustez cette valeur en fonction de la largeur de votre aside */
+
+      }
+
+h1{
+    text-align: center;
+    padding: 0.2rem;
+}
+hr{
+
+display: block;
+clear: both;
+font-family: arial;
+text-align: center;
+font-size: 30px;
+line-height: 1;
+}
+hr:after {
+content:"\273D \273D \273D";
+height: 0;          
+letter-spacing: 1em;
+
+color: #000000;
+}
+
+main section .ali{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    
+}
+
+main section .ali-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.art1{
+    width: 400px;
+}
+
+
+
+
+
+/* header + footer */
+
+
+
+
+
+
+
+
+
+a {
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+  }
+  
+  
+  header {
+    background-color: blanchedalmond; /* Ajoutez cette ligne pour définir la couleur de fond de l'en-tête */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  footer{
+    background-color: blanchedalmond;
+  }
+  .logo{
+    height: 2%;
+    width: 2%;
+    border-radius: 50px;
+  }
+  
+  .princip{
+    height: 80%;
+    width:60% ;
+    border-radius: 90px;
+  }
+  
+  .spacing {
+    letter-spacing: 3px;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 190px; /* Largeur de la sidebar */
+    position: fixed; /* Position fixée */
+    top: 0; /* Aligné en haut */
+    left: 0; /* Aligné à gauche */
+    background-color: blanchedalmond; /* Couleur de fond */
+    display: flex; /* Utiliser la flexbox */
+    flex-direction: column; /* Afficher les éléments en colonne */
+    justify-content: flex-start; /* Aligner les éléments en haut */
+    padding-top: 70px; /* Espace en haut */
+  }
+  
+  
+  .sidebar a {
+    padding: 40px; /* Espace entre les liens */
+    text-align: left; /* Aligner le texte à gauche */
+    text-decoration: none; /* Pas de soulignement sur les liens */
+    transform: rotate(-90deg); /* Incliner le texte de -30 degrés */
+  }
+  
+  .sidebar a:hover {
+      
+    color: yellow; /* Changer la couleur du texte au survol */
+  }
+  
+  
+  #conditions{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;}
+  
+  
+  #slogan {
+      font-family: "Arial", sans-serif; /* Changer la police du slogan */
+  }
+  
+  
+  .local {
+      text-align: right;
+      list-style: none;
+      margin-top: -90px;
+      color: black;
+  }
+  
+  .Accueil2 {
+    text-align: center; /* Centrer le texte à gauche */
+    list-style: none; /* Supprimer les styles de listes par défaut */
+    margin-left: -70%; /* Décaler légèrement la liste vers la gauche */
+    color: #000;
+     }
+
+  .vertmat {
+      color: green;
+  
+      top: 0;
+  }
+  
+
+  footer {
+    height: auto; /* Ajuste la hauteur automatiquement en fonction du contenu */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}

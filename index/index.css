@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: graffiti_xenoa;
+    src: url('graffiti_xenoa/GraffitiXenoa-Regular.otf') format('opentype'); /* Remplacez le chemin par le chemin réel où vous avez téléversé le fichier de police */
+    /* Ajoutez ici les autres formats de police si vous avez également téléversé des fichiers .woff ou .woff2 */
+}
+
+body {
+    font-family: graffiti_xenoa, sans-serif; /* Utilisation de la police définie */
+    text-align: center;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blanchedalmond; /* ou toute autre couleur de votre choix */
+    color: bisque;
+    z-index: 1000; /* Assurez-vous que le header est au-dessus du contenu */
+}
+
+
+.spacing {
+    letter-spacing: 3px;
+  
+}
+
+.linear-simple {
+    background: linear-gradient(white);
+}
+
+.vertmat {
+    color: green;
+
+    top: 0;
+}
+
+.logo{
+    height: 2%;
+    width: 2%;
+    border-radius: 50px;
+}
+
+/* Ajouter un espacement entre les liens */
+a {
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+}
+
+
+
+.image1 {
+    width: 800px; /* Définir la largeur de l'image sur 800 pixels */
+    border-radius: 40px;
+}
+
+
+#slogan {
+    font-family: "Arial", sans-serif; /* Changer la police du slogan */
+}
+
+
+.princip{
+    height: 80%;
+    width:60% ;
+    border-radius: 90px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 190px; /* Largeur de la sidebar */
+    position: fixed; /* Position fixée */
+    top: 0; /* Aligné en haut */
+    left: 0; /* Aligné à gauche */
+    background-color:blanchedalmond; /* Couleur de fond */
+    display: flex; /* Utiliser la flexbox */
+    flex-direction: column; /* Afficher les éléments en colonne */
+    justify-content: flex-start; /* Aligner les éléments en haut */
+    padding-top: 70px; /* Espace en haut */
+}
+
+
+
+
+.sidebar a {
+    padding: 70px; /* Espace entre les liens */
+    text-align: left; /* Aligner le texte à gauche */
+    text-decoration: none; /* Pas de soulignement sur les liens */
+    transform: rotate(-90deg); /* Incliner le texte de -30 degrés */
+}
+
+.sidebar a:hover {
+    
+    color: yellow; /* Changer la couleur du texte au survol */
+}
+
+/* Styles CSS pour le contenu principal */
+
+
+/* Autres styles CSS pour le reste de la page */
+
+.Accueil2 {
+    text-align: center; /* Centrer le texte à gauche */
+    list-style: none; /* Supprimer les styles de listes par défaut */
+    margin-left: -500px; /* Décaler légèrement la liste vers la gauche */
+    
+}
+
+.local {
+    text-align: right;
+    list-style: none;
+    margin-top: -70px;
+    color: black;
+}
+
+#conditions{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;}
+
+footer{
+        background-color: blanchedalmond;
+}
+
+footer {
+    height: auto; /* Ajuste la hauteur automatiquement en fonction du contenu */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
